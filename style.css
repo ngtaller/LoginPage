@@ -43,7 +43,7 @@ body {
     pero pag inalis mo ang padding at margin okay ang alignment kaya lang
     panget ang display pero dipa din pantay ang button sa inputbox rightside..
     */
-    width: 95%; 
+    width: 100%; 
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 3px;
