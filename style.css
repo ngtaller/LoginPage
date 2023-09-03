@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+}   
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input { 
+    /* 
+    dito yung error pag kung mapapansin nyu wala margin
+    yung right side sagad, pero pag gngwa kng 80%/95% ang width that will
+    do the trick pero hindi sila align na 3, pag nilagyan nmn margin lumalampas sa container kahit
+    i-adjust ang width from 400px to 800px same lng.. hahaha
+    pero pag inalis mo ang padding at margin okay ang alignment kaya lang
+    panget ang display pero dipa din pantay ang button sa inputbox rightside..
+    */
+    width: 95%; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    /*ganito sana gusto ko alignment pantay sila yung margin lng sa right ang error*/
+}
+
+.form-group input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #0056b3;
+}
